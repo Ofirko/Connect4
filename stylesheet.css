@@ -1,0 +1,125 @@
+#container {
+    display: inline-flex;
+    border: 1px solid grey;
+    background-color: gold;
+}
+
+.row {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 10px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.player1 {
+    background-color: dodgerblue;
+}
+.player2 {
+    background-color: orangered;
+}
+
+.ofir {
+    background-size: 100px 100px;
+    background-image: url(assets/ofir.png);
+}
+.adeline {
+    background-size: 100px 100px;
+    background-image: url(assets/adeline.png);
+}
+.bettina {
+    background-size: 100px 100px;
+    background-image: url(assets/bettina.png);
+}
+.jorge {
+    background-size: 100px 100px;
+    background-image: url(assets/jorge.png);
+}
+.josh {
+    background-size: 100px 100px;
+    background-image: url(assets/josh.png);
+}
+.kike {
+    background-size: 100px 100px;
+    background-image: url(assets/kike.png);
+}
+.lorena {
+    background-size: 100px 100px;
+    background-image: url(assets/lorena.png);
+}
+.medo {
+    background-size: 100px 100px;
+    background-image: url(assets/medo.png);
+}
+.noelia {
+    background-size: 100px 100px;
+    background-image: url(assets/noelia.png);
+}
+
+#menbg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#menu,
+#mode {
+    background-color: rebeccapurple;
+    padding: 20px;
+    border-radius: 50px;
+    position: fixed;
+    left: 20%;
+    top: 5%;
+    z-index: 1;
+    color: white;
+}
+p {
+    padding: 2px;
+    font-style: georgia sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+#chooser {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+#chooser img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+#cursor {
+    border-radius: 100px;
+    border: 1px red solid;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+#listener {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#leaderboard {
+    padding-left: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+}
+
+p.inline {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
